@@ -35,14 +35,10 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "start": "gatsby serve",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "deploy-travis": "gatsby build && gh-pages -d public -b master -r https://$GH_TOKEN@github.com/mishal23/gatsby-starter-fresh.git"
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
