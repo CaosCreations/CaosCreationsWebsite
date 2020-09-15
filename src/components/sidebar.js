@@ -38,14 +38,14 @@ const SideBar = () => {
     <menu className="sidebar-menu">
       <li className="menu-items"><Link to="/" className="menu-links" activeClassName="active">Home</Link></li>
       <li className="menu-items"><Link to="/about" className="menu-links" activeClassName="active">About</Link></li>
-      <li className="menu-items"><Link to="/games" className="menu-links" activeClassName="active">Game</Link></li>
+      <li className="menu-items"><Link to="/games" className="menu-links" activeClassName="active">Games</Link></li>
       <li className="menu-items"><Link to="/contact" className="menu-links" activeClassName="active">Contact</Link></li>
     </menu>
 
     <div className="btn-group">
       <Link to="/" className="mob-menu-items" activeClassName="active"><button className="navbtn">Home</button></Link>
       <Link to="/about" className="mob-menu-items" activeClassName="active"><button className="navbtn">About</button></Link>
-      <Link to="/games" className="mob-menu-items" activeClassName="active"><button className="navbtn">Game</button></Link>
+      <Link to="/games" className="mob-menu-items" activeClassName="active"><button className="navbtn">Games</button></Link>
       <Link to="/contact" className="mob-menu-items" activeClassName="active"><button className="navbtn">Contact</button></Link>
     </div>
 
