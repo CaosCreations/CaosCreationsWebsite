@@ -8,4 +8,4 @@ blog: true
 
 ---
 
-Caos Creations has brought together several developers and artists hoping to make high quality games as a team wiht a limited budget.
+Caos Creations has brought together several developers and artists hoping to make high quality games as a team with a limited budget.
