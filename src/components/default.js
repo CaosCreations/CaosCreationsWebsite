@@ -1,6 +1,6 @@
 import React from "react"
 import SideBar from "./sidebar"
-import "./stylesheets/main.css"
+import "./stylesheets/main.scss"
 import "./stylesheets/mobile.css"
 
 
