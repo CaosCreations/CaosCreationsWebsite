@@ -1,17 +1,10 @@
-import React from "react"
-import SEO from "../components/seo"
-import Default from "../components/default"
-import BlogList from "../components/blogList"
+import React from "react";
+import Navbar from "../components/navbar";
 
 
 const IndexPage = () => {
-
   return(
-  <>
-  	<SEO title="Home"/>
-    <Default></Default>
-    <BlogList></BlogList>
-  </>
+    <Navbar />
   )
 }
 
