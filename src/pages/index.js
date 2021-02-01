@@ -1,10 +1,14 @@
-import React from "react";
-import Navbar from "../components/navbar";
+import React from "react"
+import Navbar from "../components/navbar"
+import Hero from "../components/hero"
 
 
 const IndexPage = () => {
   return(
-    <Navbar />
+    <>
+      <Navbar />
+      <Hero />
+    </>
   )
 }
 

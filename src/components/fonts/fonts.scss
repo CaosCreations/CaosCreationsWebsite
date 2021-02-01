@@ -1,0 +1,34 @@
+@mixin fontface($font-name, $fontface-prefix, $style, $weight) {
+    @font-face {
+      font-family: $font-name, sans-serif;
+      src:
+        local('#{$font-name}-#{$style}'),
+        local('#{$fontface-prefix}-#{$style}'),
+        url('/components/fonts/#{$fontface-prefix}-#{$style}.ttf') format('truetype');
+      font-weight: $weight;
+      font-style: $style;
+    }
+  }
+  
+  @mixin montserrat-fontface($style, $weight) {
+    @include fontface('Montserrat', 'monsterrat', $style, $weight)
+  }
+  
+  @include montserrat-fontface('thin', 100);
+  @include montserrat-fontface('thin-italic', 100);
+  @include montserrat-fontface('extralight', 200);
+  @include montserrat-fontface('extralight-italic', 200);
+  @include montserrat-fontface('light', 300);
+  @include montserrat-fontface('light-italic', 300);
+  @include montserrat-fontface('regular', 400);
+  @include montserrat-fontface('regular-italic', 400);
+  @include montserrat-fontface('medium', 500);
+  @include montserrat-fontface('medium-italic', 500);
+  @include montserrat-fontface('semibold', 600);
+  @include montserrat-fontface('semibold-italic', 600);
+  @include montserrat-fontface('bold', 700);
+  @include montserrat-fontface('bold-italic', 700);
+  @include montserrat-fontface('extrabold', 800);
+  @include montserrat-fontface('extrabold-italic', 800);
+  @include montserrat-fontface('black', 900);
+  @include montserrat-fontface('black-italic', 900);

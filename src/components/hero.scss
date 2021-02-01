@@ -1,0 +1,29 @@
+@import 'main';
+@import 'src/components/fonts/fonts.scss';
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+
+    background-color: $dark-primary-color;
+
+    .hero-internal {
+        flex-grow: 1;
+        margin: 0 auto;
+        max-width: 1080px;
+
+        .hero-content {
+            padding: 288px 24px;
+
+            .tagline {
+                color: $white;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 150%;
+            }
+        }
+    }
+}
