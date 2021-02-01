@@ -32,3 +32,13 @@
   @include montserrat-fontface('extrabold-italic', 800);
   @include montserrat-fontface('black', 900);
   @include montserrat-fontface('black-italic', 900);
+
+  @mixin hind-fontface($style, $weight) {
+    @include fontface('Hind', 'hind', $style, $weight)
+  }
+
+  @include hind-fontface('light', 300);
+  @include hind-fontface('regular', 400);
+  @include hind-fontface('medium', 500);
+  @include hind-fontface('semibold', 600);
+  @include hind-fontface('bold', 700);
