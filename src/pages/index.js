@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "../components/navbar"
 import Hero from "../components/hero"
-import "../components/main.scss"
+import "../styles/index.scss"
 
 const IndexPage = () => {
   return(
