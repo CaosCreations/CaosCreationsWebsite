@@ -6,7 +6,7 @@
     align-items: stretch;
     justify-content: space-between;
 
-    background-color: $dark-primary-color;
+    background-color: $black;
 
     .hero-internal {
         flex-grow: 1;
@@ -14,7 +14,12 @@
         max-width: 1080px;
 
         .hero-content {
-            padding: 288px 24px;
+            padding: 360px 24px;
+
+            animation-name: fadein_up;
+            animation-duration: 1.2s;
+            animation-delay: 0.6s;
+            animation-fill-mode: both;
 
             .tagline {
                 color: $white;

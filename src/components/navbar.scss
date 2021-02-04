@@ -2,7 +2,7 @@
 
 .header {
     padding: 24px;
-    background-color: $dark-primary-color;
+    background-color: $black;
 
     .container{
         display: flex;
@@ -32,6 +32,10 @@
                 font-weight: 500;
                 transition: all .1s ease-out;
                 text-decoration: none;
+
+                &:hover {
+                    color: $light-primary-color;
+                }
             }
         }
     }
