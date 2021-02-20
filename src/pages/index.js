@@ -3,11 +3,11 @@ import Navbar from "../components/navbar"
 import Hero from "../components/hero"
 import Display from "../components/display"
 import Community from "../components/community"
+import Footer from "../components/footer"
 import "../styles/index.scss"
 
 const IndexPage = () => {
   return(
-    <>
     <body>
         <Navbar />
         <Hero />
@@ -15,8 +15,8 @@ const IndexPage = () => {
         the tools in your arsenal to bring Jax home before dinner."/>
         <Display game__title="Starlight Express" game__description="Manage your interplanetary delivery company and you expand your fleet as you explore the mysteries of an old space station!"/>
         <Community />
-      </body>
-    </>
+        <Footer />
+    </body>
   )
 }
 
