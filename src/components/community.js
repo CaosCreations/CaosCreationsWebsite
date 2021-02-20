@@ -2,7 +2,7 @@ import React from "react"
 import "./community.scss"
 
 const Community = () => (
-    <div className="community__container">
+    <div className="community__container" id="community">
         <div className="community__internal">
             <div className="community__content">
                 <h1 className="community__headline">Join the community</h1>

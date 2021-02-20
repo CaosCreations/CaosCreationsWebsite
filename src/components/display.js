@@ -3,7 +3,7 @@ import "./display.scss"
 import sample_clip from "../videos/sample.mp4"
 
 const Display = (props) => (
-    <div className="display__container">
+    <div className="display__container" id={props.id}>
         <div className="display__internal">
             <video className="display__media" preload="auto" autoplay="true" muted="true" loop="true" src={sample_clip} />
             {/* Need to add static images for browsers that don't load videos properly */}

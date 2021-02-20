@@ -13,17 +13,8 @@ const Navbar = () => (
          <a href="/#games">
            Games
          </a>
-         <a href="/#team">
-           Team
-         </a>
-         <a href="/#blog">
-           Blog
-         </a>
-         <a href="/#about">
-           About
-         </a>
-         <a href="/#merch">
-           Merch
+         <a href="/#community">
+           Community
          </a>
        </div>
     </div>
