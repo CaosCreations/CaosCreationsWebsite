@@ -4,7 +4,7 @@
       src:
         local('#{$font-name}-#{$style}'),
         local('#{$fontface-prefix}-#{$style}'),
-        url('/components/fonts/#{$fontface-prefix}-#{$style}.ttf') format('truetype');
+        url('/fonts/#{$fontface-prefix}-#{$style}.ttf') format('truetype');
       font-weight: $weight;
       font-style: $style;
     }

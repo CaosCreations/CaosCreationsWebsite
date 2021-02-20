@@ -1,15 +1,15 @@
 @import 'src/styles/index.scss';
 
-.display-landing__container{
+.display__container{
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
 
-    .display-landing__internal {
-        position: absolute;
+    .display__internal {
+        position: relative;
 
-        .display-landing__content {
+        .display__content {
             position: absolute;
             top: 0px;
             bottom: 0px;
@@ -22,7 +22,7 @@
             padding: 160px 480px;
             max-width: 1080px;
 
-            .display-landing__headline {
+            .display__headline {
                 margin: 0 auto;
                 text-align: center;
                 text-shadow: 0 0 10px rgba(137, 128, 206, .80);
@@ -36,8 +36,8 @@
                 letter-spacing: 4px;
             }
 
-            .display-landing__description {
-                margin-top: 24  px;
+            .display__description {
+                margin-top: 24px;
                 text-align: center;
                 color: $white;
 
@@ -48,7 +48,7 @@
             }
         }
 
-        .display-landing__media {
+        .display__media {
             width: 100%;
         }
     }
