@@ -1,33 +1,57 @@
-@import 'src/styles/index.scss';
+@import "src/styles/index.scss";
 
-.hero-container{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-between;
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: $black;
 
-    background-color: $black;
+  .hero-video-wrapper {
+    position: absolute;
+    z-index: 0;
+    top: -150%;
+    left: -150%;
+    width: 400%;
+    height: 200%;
+    padding-top: 56.25%;
+    opacity: 0.5;
 
-    .hero-internal {
-        flex-grow: 1;
-        margin: 0 auto;
-        max-width: 1080px;
-
-        .hero-content {
-            padding: 360px 24px;
-
-            animation-name: fadein_up;
-            animation-duration: 1.2s;
-            animation-delay: 0.6s;
-            animation-fill-mode: both;
-
-            .tagline {
-                color: $white;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 64px;
-                font-weight: 700;
-                line-height: 150%;
-            }
-        }
+    .hero-video-player {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
     }
+  }
+
+  .hero-content-wrapper {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 1080px;
+
+    .hero-content {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation-name: fadein_up;
+      animation-duration: 1.2s;
+      animation-delay: 0.6s;
+      animation-fill-mode: both;
+      width: 100%;
+      height: 100%;
+
+      .tagline {
+        text-align: center;
+        color: $off-white;
+      }
+    }
+  }
 }
