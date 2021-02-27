@@ -18,7 +18,7 @@ const Hero = () => (
     </div>
     <div className="hero-content-wrapper">
       <div className="hero-content">
-        <h1 className="tagline">We're a group of ding dongs</h1>
+        <p className="tagline typeDisplay d2">We're a group of ding dongs</p>
       </div>
     </div>
   </div>
