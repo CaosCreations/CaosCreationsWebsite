@@ -1,35 +1,24 @@
 @import "src/styles/index.scss";
 
-.header {
-  position: absolute;
+.nav-container {
+  position: relative;
   z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  animation: fadeInDown 0.6s 1.8s both;
+  margin: 24px auto;
+  max-width: $content-max-width;
+  background-color: $black;
 
-  .container {
-    position: relative;
+  .nav-logo {
+    width: 300px;
+  }
+
+  .nav-links-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 0 auto;
-    max-width: $content-max-width;
-
-    .nav-logo {
-      flex-grow: 1;
-      max-width: 240px;
-
-      img {
-          width: 100%;
-      }
-    }
-
-    .nav-links-container {
-      display: flex;
-      flex-grow: 1;
-      flex-direction: row;
-      justify-content: flex-end;
-    }
+    justify-content: flex-end;
   }
 }
