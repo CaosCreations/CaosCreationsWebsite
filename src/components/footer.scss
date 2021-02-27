@@ -11,7 +11,7 @@
     .footer__internal {
         flex-grow: 1;
         margin: 0 auto;
-        max-width: 1080px;
+        max-width: $content-max-width;
 
         .footer__buttons {
             display: flex;

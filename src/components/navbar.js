@@ -6,14 +6,14 @@ import logo from "../images/brand/cc-logohorizontal-white.svg"
 const Navbar = () => (
   <header className="header">
     <div className="container">
-     <a className="header-logo" href="/">
+     <a className="nav-logo" href="/">
        <img src={logo} alt="caos creations logo" />
        </a>
-       <div className="nav-links">
-         <a href="/#games">
+       <div className="nav-links-container">
+         <a className="nav-link" href="/#games">
            Games
          </a>
-         <a href="/#community">
+         <a className="nav-link"href="/#community">
            Community
          </a>
        </div>

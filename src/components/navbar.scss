@@ -1,42 +1,31 @@
-@import 'src/styles/index.scss';
+@import "src/styles/index.scss";
 
 .header {
-    padding: 24px;
-    background-color: $black;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px;
 
-    .container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
 
-        max-width: 1080px;
-        margin: 0 auto;
-
-        .header-logo {
-            flex-grow: 1;
-            max-height: 88px;
-        }
-
-        .nav-links {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            font-size: 18px;
-
-            a {
-                margin-left: 8px;
-                padding: 8px;
-                color: $white;
-                font-family: 'Montserrat', sans-serif;
-                font-weight: 500;
-                transition: all .1s ease-out;
-                text-decoration: none;
-
-                &:hover {
-                    color: $light-primary-color;
-                }
-            }
-        }
+    .nav-logo {
+      flex-grow: 1;
+      max-height: 88px;
     }
+
+    .nav-links-container {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
 }
