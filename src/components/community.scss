@@ -11,7 +11,7 @@
     .community__internal {
         flex-grow: 1;
         margin: 0 auto;
-        max-width: 1080px;
+        max-width: $content-max-width;
 
         .community__headline {
             padding-top: 160px;

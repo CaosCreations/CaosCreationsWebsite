@@ -20,7 +20,7 @@
             justify-content: center;
             align-items: center;
             padding: 160px 480px;
-            max-width: 1080px;
+            max-width: $content-max-width;
 
             .display__headline {
                 margin: 0 auto;

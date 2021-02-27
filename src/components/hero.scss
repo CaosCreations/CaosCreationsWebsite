@@ -34,7 +34,7 @@
         left: 0;
 
         margin: 0 auto;
-        max-width: 1080px;
+        max-width: $content-max-width;
         z-index: 10;
 
         .hero-content {
