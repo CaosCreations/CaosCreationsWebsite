@@ -1,0 +1,33 @@
+@import 'src/styles/index.scss';
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+
+    background-color: $black;
+
+    .hero-internal {
+        flex-grow: 1;
+        margin: 0 auto;
+        max-width: 1080px;
+
+        .hero-content {
+            padding: 360px 24px;
+
+            animation-name: fadein_up;
+            animation-duration: 1.2s;
+            animation-delay: 0.6s;
+            animation-fill-mode: both;
+
+            .tagline {
+                color: $white;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 150%;
+            }
+        }
+    }
+}
