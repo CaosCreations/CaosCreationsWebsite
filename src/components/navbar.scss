@@ -4,7 +4,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: 24px;
+    padding-top: 24px;
     width: 100%;
     z-index: 100;
 
@@ -14,12 +14,16 @@
         flex-direction: row;
         align-items: center;
 
-        max-width: 1080px;
+        max-width: $content-max-width;
         margin: 0 auto;
 
         .header-logo {
             flex-grow: 1;
-            max-height: 88px;
+            max-width: 240px;
+
+            img {
+                width: 100%;
+            }
         }
 
         .nav-links {
