@@ -1,5 +1,5 @@
 import React from "react"
-import ReactPlayer from 'react-player/youtube'
+import ReactPlayer from 'react-player/vimeo'
 import "./hero.scss"
 
 const Hero = () => (
@@ -7,7 +7,7 @@ const Hero = () => (
     <div className="hero-video-wrapper">
       <ReactPlayer
         className="hero-video-player"
-        url='https://www.youtube.com/watch?v=OafR9XphiRQ'
+        url='https://vimeo.com/519274799'
         loop={true}
         muted={true}
         playing={true}
