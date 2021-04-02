@@ -1,6 +1,6 @@
 import React from "react"
 
-const Contact = () => {
+const notFound404 = () => {
     return(
       <body>
           
@@ -8,4 +8,4 @@ const Contact = () => {
     )
   }
   
-  export default Contact
+  export default notFound404
