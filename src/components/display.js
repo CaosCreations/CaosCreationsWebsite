@@ -17,7 +17,7 @@ const Display = (props) => (
             />
             {/* Need to add static images for browsers that don't load videos properly */}
             <div className="display-content">
-                <p className="display-headline d4">{props.gameTitle}</p>
+                <h2 className="display-headline">{props.gameTitle}</h2>
                 <p className="display-description b1">{props.gameDescription}</p>
             </div>
         </div>
