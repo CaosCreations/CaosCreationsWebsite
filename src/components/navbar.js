@@ -1,6 +1,6 @@
 import React from "react"
 import "./navbar.scss"
-import logo from "../images/brand/cc-logohorizontal-white.svg"
+import logo from "../images/brand/cc-horizontal-orange-cat.svg"
 
 const Navbar = () => (
   <header className="nav-container">
