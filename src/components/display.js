@@ -11,6 +11,7 @@ const Display = (props) => (
                 loop={true}
                 muted={true}
                 playing={true}
+                autoplay={true}
                 controls={false}
                 width='100%'
                 height='100%'
@@ -19,6 +20,16 @@ const Display = (props) => (
             <div className="display-content">
                 <h2 className="display-headline">{props.gameTitle}</h2>
                 <p className="display-description b1">{props.gameDescription}</p>
+                {props.isjj === "true" &&
+                    <a className="btn-primary" href={props.primaryCta} target="_blank" rel="noopener noreferrer">
+                        Download on Steam
+                    </a>
+                }
+                {props.isjj === "false" &&
+                    <a className="btn-primary" href={props.primaryCta} target="_blank" rel="noopener noreferrer">
+                        Check out the latest
+                    </a>
+                }
             </div>
         </div>
     </div>

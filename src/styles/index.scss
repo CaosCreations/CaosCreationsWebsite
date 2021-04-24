@@ -1,11 +1,13 @@
 // Global Modules, Fonts & Resets
 //----------------------------------------
-
+@import "fonts/fonts";
 @import "modules/variables";
 @import "modules/mixins";
 @import "modules/animations";
 @import "modules/type";
 @import "modules/global";
-@import "fonts/fonts";
+
+// Components
+//----------------------------------------
 @import "components/links";
 @import "components/buttons";

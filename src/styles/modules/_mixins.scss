@@ -1,0 +1,20 @@
+// Responsive mixins
+// Material Design breakpoints
+//----------------------------------------
+@mixin bp-small {
+  @media only screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin bp-medium {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin bp-large {
+  @media only screen and (min-width: 1440px) {
+    @content;
+  }
+}
