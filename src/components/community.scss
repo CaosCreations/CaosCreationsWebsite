@@ -9,9 +9,10 @@
   width: auto;
 
   .community-internal {
+    padding: 0 24px;
     flex-grow: 1;
     margin: 0 auto;
-    max-width: $content-max-width;
+    max-width: $single-column-max-width;
 
     .community-headline {
       margin-bottom: 24px;
