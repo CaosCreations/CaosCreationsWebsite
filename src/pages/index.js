@@ -13,7 +13,7 @@ const IndexPage = () => {
         <Hero />
         <Display
           isjj="true"
-          id="games"
+          id="jj"
           gameTitle="Jumping Jax"
           gameDescription="Exploit interesting movement mechanics to chase after your teleporting cyber-corgi and explore a sci-fi city! Use all
             the tools in your arsenal to bring Jax home before dinner." 
@@ -21,6 +21,7 @@ const IndexPage = () => {
         />
         <Display
           isjj="false"
+          id="se"
           gameTitle="Starlight Express"
           gameDescription="Manage your interplanetary delivery company and you expand your fleet as you explore the mysteries of an old space station!"
           primaryCta="https://discord.gg/U4FvsWFJvf"

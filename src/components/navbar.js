@@ -1,6 +1,6 @@
 import React from "react"
 import "./navbar.scss"
-import logo from "../images/brand/cc-horizontal-orange-cat.svg"
+import logo from "../images/brand/cc-horizontal-orange-white-cat.svg"
 
 const Navbar = () => (
   <header className="nav-container">
@@ -8,7 +8,7 @@ const Navbar = () => (
        <img src={logo} alt="caos creations logo" />
        </a>
        <div className="nav-links-container">
-         <a className="nav-link" href="/#games">
+         <a className="nav-link" href="/#jj">
            Games
          </a>
          <a className="nav-link" href="/#community">
